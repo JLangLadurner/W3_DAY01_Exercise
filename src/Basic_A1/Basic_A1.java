@@ -18,9 +18,11 @@ public class Basic_A1 {
 
         Collections.sort(cities);
     //prints list of cities
-        /*for( String i :  cities){
+        for( String i :  cities){
             System.out.println(i);
-        }*/
+        }
+
+        cities.add(0,"Innsbruck");
 
 
         ArrayList<String> villages = new ArrayList<String>();
@@ -42,16 +44,18 @@ public class Basic_A1 {
         joinedList.addAll(villages);
 
         //prints index of joindedList
-        /*for( int i = 0; i < joinedList.size(); i++){
+        for( int i = 0; i < joinedList.size(); i++){
 
             System.out.println(joinedList);
 
-        }*/
+        }
 
         for(String i : joinedList){
 
             System.out.println(i);
 
         }
+
+
     }
 }
