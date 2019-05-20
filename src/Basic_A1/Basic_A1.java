@@ -17,7 +17,7 @@ public class Basic_A1 {
         cities.add("Sankt Pölten");
 
         Collections.sort(cities);
-
+    //prints list of cities
         /*for( String i :  cities){
             System.out.println(i);
         }*/
@@ -31,6 +31,7 @@ public class Basic_A1 {
 
         Collections.sort(villages);
 
+        //prints villages
         /*for(String i : villages){
             System.out.println(i);
         }*/
@@ -40,6 +41,7 @@ public class Basic_A1 {
         joinedList.addAll(cities);
         joinedList.addAll(villages);
 
+        //prints index of joindedList
         /*for( int i = 0; i < joinedList.size(); i++){
 
             System.out.println(joinedList);
