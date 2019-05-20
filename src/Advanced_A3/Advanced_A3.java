@@ -37,6 +37,7 @@ public class Advanced_A3 {
         aCity.printCityNames();
         //aCity.printCityCitizenNumbers();
         //aCity.printAllCityData();
+        aCity.printTotalNumberOfCitizens();
 
 
 
