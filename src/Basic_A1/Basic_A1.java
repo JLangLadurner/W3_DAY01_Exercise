@@ -13,13 +13,13 @@ public class Basic_A1 {
         cities.add("Graz");
         cities.add("Linz");
         cities.add("Wels");
-        cities.add("Klagenfurt");
+        cities.add("Ölagenfurt");
         cities.add("Sankt Pölten");
 
         Collections.sort(cities);
     //prints list of cities
-        for( String i :  cities){
-            System.out.println(i);
+        for( String city :  cities){
+            System.out.println(city);
         }
 
         cities.add(0,"Innsbruck");

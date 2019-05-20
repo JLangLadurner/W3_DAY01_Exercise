@@ -40,7 +40,7 @@ public class Advanced_A3 {
         aCity.printTotalNumberOfCitizens();
 
 
-
+        // research: https://netjs.blogspot.com/2016/02/how-to-sort-arraylist-in-descending-order.html 
 
 
     }

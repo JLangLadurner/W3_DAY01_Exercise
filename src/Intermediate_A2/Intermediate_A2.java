@@ -14,28 +14,28 @@ public class Intermediate_A2 {
         animals.add("cat");
         animals.add("cow");
 
-        for (String i : animals) {
-            System.out.println(animals);
+        for (String animal : animals) {
+            System.out.println(animal);
         }
 
-        animals.remove(2); //removes
+        /*animals.remove(2); //removes
 
-        for (String i : animals){
-            System.out.println(animals);
-        }
-        animals.add(2,"cats");
-        for (String i : animals){
-            System.out.println(animals);
+        for (String animal : animals){
+            System.out.println(animal);
+        }*/
+        /*animals.add(2,"cats");
+        for (String animal : animals){
+            System.out.println(animal);
         }
          animals.set(1, "birdie");
 
         for (String i : animals){
             System.out.println(animals);
-        }
-
+        }*/
+        System.out.println("==============");
         Collections.reverse(animals);
-        for (String i : animals){
-            System.out.println(animals);
+        for (String animal : animals){
+            System.out.println(animal);
         }
 
 
