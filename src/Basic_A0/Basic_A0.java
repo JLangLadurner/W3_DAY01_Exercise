@@ -27,20 +27,24 @@ public class Basic_A0 {
         temp.add(32);
         temp.add(18);
 
-        ArrayList<Object> data = new ArrayList();
+        Citie obj1 = new Citie("Klagenfurt", 20);
+        Citie obj2 = new Citie("Vienna", 14);
+        Citie obj3 = new Citie("Bratislava", 22);
+        Citie obj4 = new Citie("Linz", 13);
 
-        // data.addAll(cities);
-        // data.addAll(temp);
+        ArrayList<Citie> data = new ArrayList();
 
-        Citie object = new Citie("Klagenfurt", 20);
-        Citie object2 = new Citie("Vienna", 15);
+        data.add(obj1);
+        data.add(obj2);
+        data.add(obj3);
+        data.add(obj4);
 
-        data.add(object);
-        data.add(object2);
+        for (Citie ct : data) {
 
-        
+            System.out.println("The temperature in " + ct.name + " is " + ct.temp + " C");
 
         }
     }
+}
 
 
