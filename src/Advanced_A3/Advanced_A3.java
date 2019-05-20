@@ -29,10 +29,14 @@ public class Advanced_A3 {
         capitals.add(ct8);
         capitals.add(ct9);
 
-        for(City capital : capitals){
+        /*for(City capital : capitals){
             System.out.println("The city name is "+capital.cityName + " and it has " + capital.citizensNum+ " citizens");
-        }
+        }*/
 
+        AustrianCities aCity = new AustrianCities(capitals);
+        aCity.printCityNames();
+        //aCity.printCityCitizenNumbers();
+        //aCity.printAllCityData();
 
 
 
