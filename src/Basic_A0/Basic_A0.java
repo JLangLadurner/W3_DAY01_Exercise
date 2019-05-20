@@ -1,6 +1,7 @@
 package Basic_A0;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Basic_A0 {
 
@@ -17,8 +18,8 @@ public class Basic_A0 {
 
         System.out.println(cities);
 
-        ArrayList<Integer> temp = new ArrayList<Integer>();
-        
+        ArrayList<Integer> temp = new ArrayList<>();
+
         temp.add(10);
         temp.add(22);
         temp.add(15);
@@ -26,7 +27,12 @@ public class Basic_A0 {
         temp.add(32);
         temp.add(18);
 
-        System.out.println(temp);
+        ArrayList<String> data = new ArrayList<>( );
+
+        data.addAll(cities);
+        data.addAll(temp);
+
+
         }
     }
 
