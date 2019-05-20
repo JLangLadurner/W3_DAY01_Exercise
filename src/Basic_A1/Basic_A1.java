@@ -1,4 +1,55 @@
 package Basic_A1;
 
+import java.util.*;
+import java.util.Collections;
+
 public class Basic_A1 {
+
+    public static void main (String[] args){
+
+        ArrayList<String> cities = new ArrayList<String>();
+
+        cities.add("Vienna");
+        cities.add("Graz");
+        cities.add("Linz");
+        cities.add("Wels");
+        cities.add("Klagenfurt");
+        cities.add("Sankt Pölten");
+
+        Collections.sort(cities);
+
+        /*for( String i :  cities){
+            System.out.println(i);
+        }*/
+
+
+        ArrayList<String> villages = new ArrayList<String>();
+
+        villages.add("Scharzach");
+        villages.add("Telfs");
+        villages.add("Pfaffenhofen");
+
+        Collections.sort(villages);
+
+        /*for(String i : villages){
+            System.out.println(i);
+        }*/
+
+        ArrayList<String> joinedList  = new ArrayList<String>();
+
+        joinedList.addAll(cities);
+        joinedList.addAll(villages);
+
+        /*for( int i = 0; i < joinedList.size(); i++){
+
+            System.out.println(joinedList);
+
+        }*/
+
+        for(String i : joinedList){
+
+            System.out.println(i);
+
+        }
+    }
 }
