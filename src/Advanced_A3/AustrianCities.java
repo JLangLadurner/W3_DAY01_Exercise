@@ -43,6 +43,8 @@ public class AustrianCities {
 
     public void printTotalNumberOfCitizens(){
 
+        //research: http://forum.codecall.net/topic/53052-what-does-n-and-t-mean/
+
             for (int i = 0; i < capitals.size(); i++) {
                 System.out.println(capitals.get(i).cityName +"\t"+capitals.get(i).citizensNum);
 
