@@ -27,10 +27,21 @@ public class Basic_A0 {
         temp.add(32);
         temp.add(18);
 
-        ArrayList<String> data = new ArrayList<>( );
+        ArrayList<Object> data = new ArrayList();
 
-        data.addAll(cities);
-        data.addAll(temp);
+        // data.addAll(cities);
+        // data.addAll(temp);
+
+        Citie object = new Citie("Klagenfurt", 20);
+        Citie object2 = new Citie("Vienna", 15);
+
+        data.add(object);
+        data.add(object2);
+
+        for(int i = 0; i < data.length; )
+        System.out.println(data);
+
+
 
 
         }
