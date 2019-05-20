@@ -38,12 +38,9 @@ public class Basic_A0 {
         data.add(object);
         data.add(object2);
 
-        for(int i = 0; i < data.length; )
-        System.out.println(data);
-
-
-
+        
 
         }
     }
+
 
