@@ -48,7 +48,7 @@ public class AustrianCities {
             for (int i = 0; i < capitals.size(); i++) {
                 System.out.println(capitals.get(i).cityName +"\t"+capitals.get(i).citizensNum);
 
-            }
+            }  //  https://kuepper.userweb.mwn.de/informatik/printf.pdf
             System.out.println("==================");
              int total = 0;
              for(int i = 0; i < capitals.size(); i++){
